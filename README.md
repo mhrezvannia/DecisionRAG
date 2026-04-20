@@ -144,9 +144,6 @@ The evaluation script rebuilds a small FAISS index from the sample documents, ru
 - python-dotenv
 - OpenAI-compatible client
 
-### CV-Ready Summary
-Designed and implemented an uncertainty-aware retrieval-augmented decision system for document-based question answering. Combined semantic retrieval, grounded answer generation, confidence scoring, and abstention/clarification policies to improve reliability under ambiguous or insufficient evidence. Built a modular Python pipeline with FAISS, sentence-transformers, PyMuPDF, and a Streamlit-based interactive demo.
-
 ### Future Improvements
 - richer calibration
 - learned decision policies
