@@ -1,0 +1,10 @@
+streamlit>=1.35
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+PyMuPDF>=1.24
+pydantic>=2.7
+numpy>=1.26
+pandas>=2.2
+python-dotenv>=1.0
+openai>=1.35
+pytest>=8.2

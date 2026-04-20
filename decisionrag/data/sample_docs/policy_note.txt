@@ -1,0 +1,9 @@
+Policy Note: Evidence-Grounded Decision Support
+
+The review board requires generated explanations to cite at least one supporting source from the document set.
+
+If evidence is conflicting, too thin, or only weakly related to the question, the system should abstain rather than speculate.
+
+For employee-facing or policy-sensitive decisions, human oversight remains required for moderate-confidence outcomes.
+
+Clarification should be requested when the user question does not identify the relevant program, time period, section, or metric.

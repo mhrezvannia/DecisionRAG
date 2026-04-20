@@ -1,0 +1,28 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and local history
+.idea/
+.vscode/
+.history/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime logs
+*.log
+
+# Generated project artifacts
+decisionrag/storage/logs/
+decisionrag/storage/indices/
+decisionrag/evaluation/eval_results.json

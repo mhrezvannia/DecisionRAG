@@ -1,0 +1,56 @@
+[
+  {
+    "query": "What deployment requirement is needed before the system can recommend an answer?",
+    "expected_decision": "ANSWER",
+    "gold_answer_category": "deployment_requirement",
+    "notes": "Directly supported by the technical memo."
+  },
+  {
+    "query": "Which team led the pilot described in the report?",
+    "expected_decision": "ANSWER",
+    "gold_answer_category": "project_ownership",
+    "notes": "Supported by the project report."
+  },
+  {
+    "query": "When should the system ask the user for clarification?",
+    "expected_decision": "ANSWER",
+    "gold_answer_category": "clarification_policy",
+    "notes": "Supported by the policy note and technical memo."
+  },
+  {
+    "query": "What happened after the review?",
+    "expected_decision": "ASK_FOR_CLARIFICATION",
+    "gold_answer_category": null,
+    "notes": "Underspecified relative to the sample documents."
+  },
+  {
+    "query": "Explain this result.",
+    "expected_decision": "ASK_FOR_CLARIFICATION",
+    "gold_answer_category": null,
+    "notes": "Vague query pattern should trigger ambiguity logic."
+  },
+  {
+    "query": "What does it say?",
+    "expected_decision": "ASK_FOR_CLARIFICATION",
+    "gold_answer_category": null,
+    "notes": "Very vague query with no clear referent."
+  },
+  {
+    "query": "What GPU cluster was used for training?",
+    "expected_decision": "ABSTAIN",
+    "gold_answer_category": null,
+    "notes": "Unsupported by the sample corpus."
+  },
+  {
+    "query": "What was the total budget for the pilot?",
+    "expected_decision": "ABSTAIN",
+    "gold_answer_category": null,
+    "notes": "Unsupported by the sample corpus."
+  },
+  {
+    "query": "Who approved the final legal language?",
+    "expected_decision": "ABSTAIN",
+    "gold_answer_category": null,
+    "notes": "Unsupported entity-level question."
+  }
+]
